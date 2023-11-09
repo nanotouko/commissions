@@ -179,6 +179,15 @@ button:hover {
 .grid-container__terms .header {
     font-weight: bold;
     background-color: #2196f3;
+    text-shadow:
+    -2px -2px 0 #000,
+     0   -2px 0 #000,
+     2px -2px 0 #000,
+     2px  0   0 #000,
+     2px  2px 0 #000,
+     0    2px 0 #000,
+    -2px  2px 0 #000,
+    -2px  0   0 #000;
 }
 .grid-container__terms .header, .grid-container__terms .data {
     padding: 16px;
